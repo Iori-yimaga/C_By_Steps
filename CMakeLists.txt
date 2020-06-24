@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.16)
+project(C C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(C main.c)
+add_executable(8-25 Practice/8-25.c)
+add_executable(Parenthesis_Matching Practice/Parenthesis_Matching.c)
+add_executable(9-6 Practice/9-6.c)
+add_executable(9-7 Practice/9-7.c)
+add_executable(9-8 Practice/9-8.c)
+add_executable(9-9 Practice/9-9.c)
