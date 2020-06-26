@@ -6,13 +6,13 @@ typedef struct SqStack {
     int top;
 } SqStack;
 
-//出栈操作
+//入栈操作
 void Push(SqStack *S, char c) {
     S->top++;
     S->str[S->top] = c;
 }
 
-//入栈
+//出栈
 void Pop(SqStack *S, char *c) {
     *c = S->str[S->top];
     S->top--;
