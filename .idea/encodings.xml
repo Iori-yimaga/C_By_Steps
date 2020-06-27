@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Practice/Parenthesis_Matching.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/100_Cases_Of_Interesting_Programming/BookBorrowingScheme.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/100_Cases_Of_Interesting_Programming/Catch_Criminals_Causing_Traffic_Accidents.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/100_Cases_Of_Interesting_Programming/Finding_the_Root_of_equation_by_Newton_iterative_method.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/100_Cases_Of_Interesting_Programming/FishingOrDrying.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Practice/Parenthesis_Matching.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Practice/Special_matrix_compression_storage.c" charset="GBK" />
   </component>
 </project>
