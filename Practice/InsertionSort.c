@@ -19,7 +19,7 @@ int main() {
     int len = (int) sizeof(arr) / sizeof(*arr);
     insertion_sort(arr, len);
     int i;
-    for (i = 0; i < len - 1; i++) {
+    for (i = 0; i < len; i++) {
         printf("%d ", arr[i]);
     }
     return 0;
