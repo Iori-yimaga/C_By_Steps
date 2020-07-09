@@ -28,9 +28,19 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
+int num(int x, int pos) {
+    return (int) (x / pow(10, pos - 1)) % 10;
+}
 
-bool isPalindrome(int x){
-
+bool isPalindrome(int x) {
+    if (x < 0) return false;
+    int len = 0;
+    for (; pow(10, len) <= x; len++);
+    int left = len, right = 1;
+    while (left > right)
+        if (num(x, left--) != num(x, right++))
+            return false;
+    return true;
 }
 
 
